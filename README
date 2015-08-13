@@ -1,0 +1,40 @@
+Christopher Ray
+Curt Freeland
+CSE 30264
+29 September 2014
+
+Project 1
+
+
+Files in Project1 Directory:
+
+ - client and server directories
+ - README
+
+
+Files in client directory:
+
+ - Makefile
+ - myftp.cpp
+ - clientMembers.h
+ - clientMembers.cpp
+
+
+Files in server directory:
+
+ - Makefile
+ - myftpd.cpp
+ - serverMembers.h
+ - serverMembers.cpp
+ - smallFile.html	(symbolic link)
+ - medFile.pdf		(symbolic link)
+ - bigFile.avi		(symbolic link)
+
+
+Both source codes can be compiled using make.
+
+To execute myftp:	./myftp	[hostname]	or	./myftp [hostname] [port number]
+
+to execute myftpd:	./myftpd	or	./myftp [port number]
+
+WARNING:  put function will overwrite symbolic links if they have the same filename as the file being sent
